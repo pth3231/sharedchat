@@ -1,0 +1,8 @@
+name: sharedchat
+
+services:
+  frontend:
+    build: 
+      context: ./apps/frontend
+    ports:
+      - "80:8000"
